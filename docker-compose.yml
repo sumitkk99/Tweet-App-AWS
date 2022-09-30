@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  tweet-service:
+    image: tweet-service
+    build: tweetService/.
+    ports:
+        - 8070:8000
+  tweet-app:
+    image: tweet-app
+    build: tweet-app/.
+    ports:
+        - 3000:80
+    links:
+        - tweet-service
+        

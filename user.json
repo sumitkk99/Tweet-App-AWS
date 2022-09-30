@@ -1,0 +1,37 @@
+[{
+  "_id":"1",
+  "loginId": "rosh",
+  "firstName": "Roshini",
+  "lastName": "Gopalakrishnan",
+  "emailId": "roshinigkrishnan@gmail.com",
+  "password": "$2a$10$2kXkNbFuJnC6Nt2dz6bO9uYTQSb3Gn4sxNd08PjvM1swQTuW8hn7y",
+  "contactNumber": 1234567890,
+  "loggedIn": true,
+  "roles": [
+    "user"
+  ]
+},{
+  "_id":"2",
+  "loginId": "anu",
+  "firstName": "Anu",
+  "lastName": "Mathew",
+  "emailId": "anu@gmail.com",
+  "password": "$2a$10$cslK1r.E.YHvMwEPetURRO.rHoxmxgbq.HuD3d5/s6JVabBuuhg7e",
+  "contactNumber": 4563783991,
+  "loggedIn": true,
+  "roles": [
+    "user"
+  ]
+},{
+  "_id":"3"
+  "loginId": "rohit",
+  "firstName": "rohit",
+  "lastName": "sharma",
+  "emailId": "rohit@gmail.com",
+  "password": "$2a$10$0zJWDCpmYx3txIcLPgot/OP/z2t9ZwRrqjdEI1nQjzvadVn9coWjq",
+  "contactNumber": 2341562789,
+  "loggedIn": true,
+  "roles": [
+    "user"
+  ]
+}]

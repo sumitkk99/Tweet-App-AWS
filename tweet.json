@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "60a3bfdb15bfa63998b69834"
+  },
+  "tweet": "helloo gshdj",
+  "userTweetId": "rosh",
+  "tweetId": 2,
+  "like": 4,
+  "reply": [
+    {
+      "replied": "hii",
+      "dateReplied": {
+        "$date": "2021-05-18T13:30:59.535Z"
+      }
+    }
+  ],
+  "dateOfPost": {
+    "$date": "2021-05-18T13:23:39.903Z"
+  },
+  "_class": "com.tweetapp.entities.TweetsEntity"
+},{
+  "_id": {
+    "$oid": "60aba2b5d3f7df11009feb64"
+  },
+  "tweet": "this is rohit!!\n",
+  "userTweetId": "rohit",
+  "tweetId": 3,
+  "like": 1,
+  "reply": [
+    {
+      "replied": "hii",
+      "dateReplied": {
+        "$date": "2021-05-24T12:57:44.814Z"
+      }
+    }
+  ],
+  "dateOfPost": {
+    "$date": "2021-05-24T12:57:25.332Z"
+  },
+  "_class": "com.tweetapp.entities.TweetsEntity"
+}]
